@@ -1,1 +1,22 @@
+wind-turbine-simulation/
+│
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── wind_turbine_sim.py
+│
+├── data/
+│   └── wind_profile.csv
+│
+├── docs/
+│   └── literature_summary.md
+│
+├── models/
+│   ├── aerodynamic_model.py
+│   ├── mechanical_model.py
+│   ├── generator_model.py
+│   └── control_system.py
+│
+└── plots/
+    └── power_output_vs_wind_speed.png
 
