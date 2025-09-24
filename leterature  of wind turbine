@@ -1,1 +1,40 @@
+# 🌬️ Wind Turbine Simulation Model
+
+This repository contains a dynamic simulation of a horizontal-axis wind turbine, built in Python. It models aerodynamic power extraction, mechanical drive train dynamics, and basic control strategies.
+
+## 📌 Features
+
+- Calculates power output based on wind speed and rotor parameters
+- Modular structure for aerodynamic, mechanical, and electrical subsystems
+- Visualization of power output vs wind speed
+- Expandable to include pitch/yaw control and grid interface
+
+## 📚 Literature References
+
+This project is grounded in the following key resources:
+
+- [Wind Turbine Modelling and Simulation by ibromatics38](https://github.com/ibromatics38/Wind-Turbine-Modelling-and-Simulation)
+- [SpringerOpen Review on Numerical Simulation Techniques](https://bjbas.springeropen.com/articles/10.1186/s43088-025-00680-4)
+- [MDPI Review on Wind Turbine Emulators](https://www.mdpi.com/2227-9717/11/3/747)
+
+## 🧠 Model Overview
+
+The simulation includes:
+
+- **Aerodynamic Model**: Based on Betz’s law and Cp curves
+- **Mechanical Model**: Rotor inertia, shaft stiffness, damping
+- **Generator Model**: Simplified induction generator
+- **Control System**: Basic pitch and torque control logic
+
+## 📈 Example Plot
+
+![Power Output vs Wind Speed](plots/power_output_vs_wind_speed.png)
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/yourusername/wind-turbine-simulation.git
+cd wind-turbine-simulation
+pip install -r requirements.txt
+python wind_turbine_sim.py
 
