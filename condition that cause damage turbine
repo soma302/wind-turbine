@@ -1,22 +1,45 @@
-wind-turbine-simulation/
-│
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── wind_turbine_sim.py
-│
-├── data/
-│   └── wind_profile.csv
-│
-├── docs/
-│   └── literature_summary.md
-│
-├── models/
-│   ├── aerodynamic_model.py
-│   ├── mechanical_model.py
-│   ├── generator_model.py
-│   └── control_system.py
-│
-└── plots/
-    └── power_output_vs_wind_speed.png
+# ⚠️ Wind Turbine Damage Conditions
+
+This document outlines the key environmental and mechanical conditions that can lead to wind turbine damage. Understanding these failure modes is essential for designing robust simulations and predictive maintenance strategies.
+
+## 🌪️ 1. Blade Damage
+- **Causes**: Fatigue, hail impact, UV degradation, lightning strikes
+- **Effects**: Reduced efficiency, vibration, structural failure
+
+## ⚙️ 2. Gearbox Failure
+- **Causes**: High torque loads, lubricant breakdown, misalignment
+- **Effects**: Downtime, costly repairs, power loss
+
+## 🔩 3. Bearing Failure
+- **Causes**: Vibration, poor lubrication, contamination
+- **Effects**: Rotor instability, increased wear
+
+## 🛑 4. Brake System Failure
+- **Causes**: Overheating, wear, poor maintenance
+- **Effects**: Overspeed risk, safety hazard
+
+## ⚡ 5. Electrical Failures
+- **Causes**: Voltage spikes, insulation breakdown, corrosion
+- **Effects**: Generator shutdown, grid instability
+
+## 🏗️ 6. Structural Failures
+- **Causes**: Tower fatigue, foundation settling, extreme loads
+- **Effects**: Cracking, collapse, reconstruction
+
+## 🌊 7. Environmental Factors
+- **Causes**: Salt spray, humidity, extreme temperatures
+- **Effects**: Accelerated corrosion, material degradation
+
+## 📘 References
+- [MDPI Review on Wind Turbine Emulators](https://www.mdpi.com/2227-9717/11/3/747)
+- [SpringerOpen Review on Numerical Simulation Techniques](https://bjbas.springeropen.com/articles/10.1186/s43088-025-00680-4)
+
+---
+
+This file can be linked from your main `README.md` under a new section like:
+
+```markdown
+## 🧱 Failure Modes
+See [damage_conditions.md](docs/damage_conditions.md) for a breakdown of turbine damage scenarios and their causes.
+
 
